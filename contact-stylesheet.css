@@ -13,6 +13,7 @@ body header
     grid-column-start: 2;
     grid-column-end: 3;
     text-align:center;
+    color: white;
     
 }
 body div {
@@ -26,7 +27,7 @@ body button{
     text-align: center;
 }
 
-#backgroundDiv, header
+#backgroundDiv
 {
     background-color: cyan;
 }
@@ -39,6 +40,21 @@ body button{
 #eyeColor
 {
     width: 65px;
+}
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:active
+{
+    color: rgb(205,0,26);
 }
 
 @media(max-width: 1024px)
@@ -55,9 +71,18 @@ body button{
         grid-template-columns: 100%;
     }
     body div {
-        padding: 5px;
+        
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 2;
+    }
+
+    body header
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: gray;
+        
+        
     }
 }
