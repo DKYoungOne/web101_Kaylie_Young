@@ -1,7 +1,4 @@
 body{
-    /* display: grid;
-    grid-template-columns: 32% 68%;
-    grid-template-rows: 4.9% 21.1% 25% 25% 25%; */
     font-family: serif;
     height: auto;
     width: 1920px;
@@ -10,15 +7,7 @@ body{
 }
 
 header {
-    grid-area: 1 / 1 / 2 / 3;
     background-color: rgb(68, 68, 68);
-    
-}
-#headerContainer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    text-align: center;
 }
 #collapse {
     text-align: center;
@@ -41,13 +30,4 @@ header {
     position: relative;
     top: 50px;
     width: 40%;
-}
-
-@media (max-width: 962px)
-{
-    #myName
-    {
-        color: rgba(255, 0, 0, 0);
-    }
-    
 }

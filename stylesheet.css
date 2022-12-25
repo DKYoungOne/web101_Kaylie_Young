@@ -1,16 +1,9 @@
-/* this is a test change for git config reasons */
 body {
     margin: auto;
 }
 header {
     background-color: rgb(68, 68, 68);
-    
-}
-#headerContainer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    text-align: center;
+
 }
 #collapse {
     text-align: center;

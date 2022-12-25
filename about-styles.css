@@ -1,8 +1,5 @@
 body
 {
-    /* display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 11% 89%; */
     margin: auto;
 }
 header {
@@ -15,20 +12,15 @@ header {
 }
 .jumbotron {
     text-align: center;
-    
-    
 }
 main
 {
-    
     padding: 25px;
 }
 #aboutMeHeadshot
 {
-    
    display: block;
-   text-align: center;
-    
+   text-align: center; 
 }
 #aboutMeHeadshot img
 {

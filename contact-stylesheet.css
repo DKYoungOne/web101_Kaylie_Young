@@ -2,27 +2,17 @@
 body
 {
     margin: auto;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 body header
 {
-    display: grid;
-    
     background-color: rgb(68, 68, 68);
-    
-}
-#headerContainer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    text-align: center;
 }
 #collapse {
     text-align: center;
 }
 
 body div {
-    padding: 5px;
     text-align: center;
     
 }
@@ -33,8 +23,9 @@ body button{
 
 #backgroundDiv
 {
-    background-color: rgb(68, 68, 68);
-    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 #comments
@@ -42,22 +33,3 @@ body button{
     resize: none;
 }
 
-#eyeColor
-{
-    width: 65px;
-}
-
-
-
-
-@media(max-width: 600px)
-{
-    
-    #backgroundDiv {
-        
-        text-align: center;
-        
-    }
-
-    
-}
