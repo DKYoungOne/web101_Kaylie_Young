@@ -6,20 +6,18 @@ body
     margin: auto;
 }
 header {
-    grid-area: 1 / 1 / 2 / 3;
+    
     background-color: rgb(68, 68, 68);
     
-}
-#headerContainer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    text-align: center;
 }
 #collapse {
     text-align: center;
 }
-
+.jumbotron {
+    text-align: center;
+    
+    
+}
 main
 {
     
@@ -35,7 +33,7 @@ main
 #aboutMeHeadshot img
 {
     object-fit: cover;
-    width: 70%;
+    width: 40%;
     height: auto;
     position: relative;
     top: 13%;
