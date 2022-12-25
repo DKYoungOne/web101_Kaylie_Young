@@ -2,9 +2,26 @@ body
 {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 8% 92%;
+    grid-template-rows: 11% 89%;
     margin: auto;
 }
+header {
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: rgb(68, 68, 68);
+    
+}
+#headerContainer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    text-align: center;
+}
+#navItemCont {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
 main
 {
     grid-column-start: 1;

@@ -4,23 +4,34 @@ body
     margin: auto;
     display: grid;
     grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 9.2% 90.8%;
     background-color: gray;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 body header
 {
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    text-align:center;
-    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(68, 68, 68);
     
 }
+#headerContainer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    text-align: center;
+}
+#navItemCont {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
 body div {
     padding: 5px;
     text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-area: 2 / 2 / 3 / 3;
 }
 
 body button{
@@ -29,7 +40,8 @@ body button{
 
 #backgroundDiv
 {
-    background-color: cyan;
+    background-color: rgb(68, 68, 68);
+    color: white;
 }
 
 #comments
@@ -42,20 +54,7 @@ body button{
     width: 65px;
 }
 
-a:link
-{
-    color: white;
-}
 
-a:visited
-{
-    color: black;
-}
-
-a:active
-{
-    color: rgb(205,0,26);
-}
 
 @media(max-width: 1024px)
 {
@@ -70,7 +69,7 @@ a:active
     {
         grid-template-columns: 100%;
     }
-    body div {
+    #backgroundDiv {
         
         text-align: center;
         grid-column-start: 1;
@@ -81,7 +80,6 @@ a:active
     {
         grid-column-start: 1;
         grid-column-end: 2;
-        background-color: gray;
         
         
     }
