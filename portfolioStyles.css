@@ -8,6 +8,9 @@ header {
 #collapse {
     text-align: center;
 }
+main {
+    margin-bottom: 100px;
+}
 .jumbotron {
     text-align: center;
     position: relative;
