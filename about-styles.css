@@ -1,8 +1,8 @@
 body
 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 11% 89%;
+    grid-template-rows: 11% 89%; */
     margin: auto;
 }
 header {
@@ -16,34 +16,26 @@ header {
     align-items: center;
     text-align: center;
 }
-#navItemCont {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
+#collapse {
+    text-align: center;
 }
 
 main
 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    
     padding: 25px;
 }
 #aboutMeHeadshot
 {
     
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    
+   display: block;
+   text-align: center;
     
 }
 #aboutMeHeadshot img
 {
     object-fit: cover;
-    width: 90%;
+    width: 70%;
     height: auto;
     position: relative;
     top: 13%;

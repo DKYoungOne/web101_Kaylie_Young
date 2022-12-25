@@ -11,8 +11,6 @@ header {
     align-items: center;
     text-align: center;
 }
-#navItemCont {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
+#collapse {
+    text-align: center;
 }
