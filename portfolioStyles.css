@@ -8,3 +8,18 @@ header {
 #collapse {
     text-align: center;
 }
+.portfolioSite {
+    margin-top: 15px;
+}
+img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgb(68, 68, 68);
+    
+}
+p {
+    text-align:center;
+}
