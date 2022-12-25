@@ -8,10 +8,14 @@ header {
 #collapse {
     text-align: center;
 }
+div h3 {
+    text-align: center;
+}
 .portfolioSite {
     margin-top: 15px;
     margin-bottom: 30px;
 }
+
 img {
     display: block;
     max-width: 50%;
