@@ -17,4 +17,7 @@ header {
     position: relative;
     top: 60px;
 }
-
+.pdf {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
